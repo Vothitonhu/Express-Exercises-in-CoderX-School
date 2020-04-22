@@ -4,3 +4,5 @@ form(action="/todos/search", method = "GET")
 ul Danh sách các việc sẽ làm
   each todo in todos
     li= todo.name
+
+a(href = "/todos/create") Create Todo
