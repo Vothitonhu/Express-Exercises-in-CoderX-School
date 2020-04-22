@@ -6,7 +6,8 @@ let todos = [
     { id: 1, name: 'Đi chợ' },
     { id: 2, name: 'Rửa chén' },
     { id: 3, name: 'Nấu cơm' },
-    { id: 4, name: 'Học code tại CodersX' }
+    { id: 4, name: 'Học code tại CodersX' },
+    { id: 5, name: 'Làm bài tập' }
 ]
 
 app.use(bodyParser.urlencoded({ extended: false }))
