@@ -1,0 +1,8 @@
+form(action="/todos/search", method = "GET")
+    input(type = "text", name = "q", value = query)
+    button Search
+ul Danh sách các việc sẽ làm
+  each todo in todos
+    li= todo.text
+
+a(href = "/todos/create") Create Todo
